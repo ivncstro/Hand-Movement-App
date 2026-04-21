@@ -1,0 +1,81 @@
+#  Logbook Entry – {{DATE}}
+
+##  Team
+- Breanna Chin
+- Ivan Castro
+
+---
+
+##  Objective for Today
+> What was the goal for this session?
+
+- 
+
+---
+
+##  Work Done
+> What did you actually complete?
+
+[b]
+- 
+[i]
+- 
+[both]
+- 
+
+---
+
+##  Technical Details
+> Code changes, algorithms, parameters, etc.
+
+- Detection method used:
+- Libraries/tools:
+- Key functions/modules worked on:
+- Parameters tuned:
+
+---
+
+##  Decisions Made
+> Why you chose something (VERY important)
+
+- 
+- 
+
+---
+
+##  Bugs / Issues
+> Problems encountered
+
+- Issue:
+  - Cause:
+  - Fix (if solved):
+
+---
+
+##  Testing Results
+> What happened when you ran it?
+
+- 
+- 
+
+---
+
+##  Ideas / Thoughts
+> Random ideas, future features, improvements
+
+- 
+- 
+
+---
+
+## ️ Next Steps
+> What to do next time
+
+- 
+- 
+
+---
+
+##  Contributions
+- Breanna: 
+- Ivan: 
