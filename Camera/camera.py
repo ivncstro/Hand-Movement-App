@@ -6,6 +6,12 @@ import cv2
 # create cam video object named cam
 cam = cv2.VideoCapture(0) # if multiple cam [cam1 = 0, cam2 = 1] index
 
+
+#testing camera for debugging
+if not cam.isOpened():
+    print('Could not open camera')
+
+
 # REQ: read over this
 # set width (default for cv2)
 frame_width = int(cam.get(cv2.CAP_PROP_FRAME_WIDTH))
@@ -16,8 +22,15 @@ frame_height = int(cam.get(cv2.CAP_PROP_FRAME_HEIGHT))
 fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (frame_width, frame_height))
 
+
+
 while True:
     ret, frame = cam.read()
+
+    #checking for frame being read
+    if not ret:
+        print('Could not read camera')
+        break
 
     # Write the frame to the output file
     out.write(frame)
