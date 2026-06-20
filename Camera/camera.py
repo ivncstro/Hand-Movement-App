@@ -23,6 +23,7 @@ fourcc = cv2.VideoWriter_fourcc(*'mp4v')
 out = cv2.VideoWriter('output.mp4', fourcc, 20.0, (frame_width, frame_height))
 
 
+
 while True:
     ret, frame = cam.read()
 
